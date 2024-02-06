@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 10;
+    min-width: 400px;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #3478a0;
+    margin-bottom: 4px;
+}
+
+button {
+    background: #3478a0;
+    color: aliceblue;
+    padding: 10px 20px;
+    border: 1px solid #3478a0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#delete-btn {
+    background: aliceblue;
+    color: #3478a0;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+#delete-btn:hover{
+    color: red;
+}
+.list-container li {
+    list-style: none;
+    font-size: 15px;
+    background-color: #3478a0;
+    color: aliceblue;
+    border-radius: 8px;
+    padding: 10px 8px 12px 30px;
+    margin: 12px 0;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+}
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#remove-btn {
+    background-image: url('../icons/download.png');
+    background-size: cover; /* Adjust the size of the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    /* padding-left: 20px; */
+    /* background: aliceblue; */
+    width:20px;
+    height: 20px;
+    color: #3478a0;
+    padding: 5px 10px;
+    border: 1px solid #3478a0;
+    border-radius: 50px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+
+#remove-btn:hover{
+    color: red;
+}
